@@ -1,0 +1,21 @@
+.footer-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2rem;
+    background-color: gray;
+}
+.footer-sec a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media(max-width: 700px) {
+    .footer-sec{
+        padding: 0.5rem;
+    }
+}
